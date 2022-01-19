@@ -1,6 +1,10 @@
 plugins {
     id 'com.android.library'
+
 }
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.doutyacoderepo'
 
 android {
     compileSdk 32
