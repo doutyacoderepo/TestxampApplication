@@ -1,7 +1,8 @@
 plugins {
-    id 'com.android.application'
+    id 'com.android.library'
+    id 'maven-publish'
 }
-
+group='com.github.doutyacoderepo'
 android {
     compileSdk 31
 
